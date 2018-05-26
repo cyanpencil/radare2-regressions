@@ -272,7 +272,7 @@ agf
 k='`'
 EXPECT="[0x00000000]> VV @ fcn.test (nodes 1 edges 0 zoom 100%) BB-NORM mouse:canvas-y mov-speed:5
 .---------------------------.
-|  0x0 ;[ga]                |
+|  0x0                      |
 | / (fcn) fcn.test          |
 | (6 byte folded function)  |
 $k---------------------------'
