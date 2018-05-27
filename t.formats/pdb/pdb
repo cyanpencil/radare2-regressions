@@ -6,7 +6,7 @@ for a in . .. ../.. ; do [ -e $a/tests.sh ] && . $a/tests.sh ; done
 NAME='PDB downloader check'
 FILE=../../bins/pdb/user32.dll
 ARGS="-e pdb.server=http://radare.org/"
-CMDS='!rabin2 -PP ${R2_FILE} | grep PDB;rm user32.pdb'
+CMDS='!!rabin2 -PP ${R2_FILE} ~PDB'
 EXPECT='PDB "user32.pdb" download success
 '
 EXPECT_ERR=''
