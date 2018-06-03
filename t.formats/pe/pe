@@ -110,7 +110,7 @@ BROKEN=
 FILE=$F
 ARGS=
 CMDS='
-e asm.lines=false
+e asm.lines.jmp=false
 e asm.bytes=false
 e asm.comments=false
 pd 1@0x0040131a~str.Hello

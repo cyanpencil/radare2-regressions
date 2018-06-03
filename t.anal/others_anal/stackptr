@@ -6,7 +6,7 @@ NAME='stackptr'
 FILE=../../bins/mach0/mac-ls
 CMDS='s 0x1000039b6
 af
-e asm.lines=false
+e asm.lines.jmp=false
 e asm.lines.fcn=false
 e asm.stackptr=true
 pdr~0x100003b27[1]

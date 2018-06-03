@@ -13,7 +13,7 @@ e asm.os=linux
 e asm.emu=true
 e asm.bytes=0
 e asm.cmt.col=20
-e asm.lines=false
+e asm.lines.jmp=false
 pd 20~write,exit
 '
 EXPECT='  0x00000014      int 0x80 ; 4 = write (1, "Hello, world!.", 14)
@@ -33,7 +33,7 @@ e asm.emu=true
 e emu.write=true
 e asm.bytes=0
 e asm.cmt.col=20
-e asm.lines=false
+e asm.lines.jmp=false
 aeim
 s 0x00402ade
 pd 4~printf
@@ -55,7 +55,7 @@ e asm.emu=true
 e emu.write=true
 e asm.bytes=0
 e asm.cmt.col=20
-e asm.lines=false
+e asm.lines.jmp=false
 e io.cache=true
 aeim
 s 0x00402aee
@@ -78,7 +78,7 @@ e asm.emu=true
 e emu.write=true
 e asm.bytes=0
 e asm.cmt.col=20
-e asm.lines=false
+e asm.lines.jmp=false
 e asm.lines.fcn=false
 aa
 aeim

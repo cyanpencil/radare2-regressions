@@ -13,7 +13,7 @@ e asm.arch = x86
 e asm.bits=64
 e scr.color = false
 e io.va=0
-e asm.lines=0
+e asm.lines.jmp=0
 e asm.bytes=0
 e asm.cmt.right=10
 wx 488b3541100000
@@ -36,7 +36,7 @@ e asm.arch = x86
 e asm.bits=64
 e scr.color = false
 e io.va=1
-e asm.lines=0
+e asm.lines.jmp=0
 e asm.bytes=0
 e asm.cmt.right=10
 wx 488b3541100000
