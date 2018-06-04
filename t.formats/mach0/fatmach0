@@ -19,7 +19,7 @@ FILE=../../bins/mach0/BatteryLife
 CMDS="e asm.bits
 e asm.bytes=0
 e asm.flags=0
-e asm.lines.jmp=0
+e asm.lines.bb=0
 pd 1
 "
 EXPECT='64
@@ -34,7 +34,7 @@ FILE=../../bins/mach0/BatteryLife
 CMDS="e asm.bits
 e asm.bytes=0
 e asm.flags=0
-e asm.lines.jmp=0
+e asm.lines.bb=0
 pd 1
 "
 EXPECT='64
@@ -48,7 +48,7 @@ FILE=../../bins/mach0/BatteryLife.arm_64.1
 CMDS="
 e asm.bytes=0
 e asm.flags=0
-e asm.lines.jmp=0
+e asm.lines.bb=0
 pd 1
 "
 EXPECT='  0x100010f7c      stp x22, x21, [sp, -0x30]!

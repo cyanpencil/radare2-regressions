@@ -1674,7 +1674,7 @@ s 0x00400820
 af
 e asm.emu=true
 e emu.write=true
-e asm.lines.jmp=false
+e asm.lines.bb=false
 e asm.lines.fcn=false
 aei
 aeim

@@ -39,7 +39,7 @@ FILE=../../bins/mach0/BatteryLife.arm_32.0
 ARGS=
 CMDS='
 e asm.bytes=0
-e asm.lines.jmp=0
+e asm.lines.bb=0
 e asm.comments=0
 pd 1~push
 aae

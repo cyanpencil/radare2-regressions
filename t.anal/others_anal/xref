@@ -328,7 +328,7 @@ NAME='refs with aar'
 FILE=../../bins/elf/crackme
 ARGS=
 CMDS='
-e asm.lines.jmp=false
+e asm.lines.bb=false
 e asm.lines.fcn=false
 aar
 pd 1 @0x400730
@@ -349,7 +349,7 @@ NAME='refs with afr'
 FILE=../../bins/elf/crackme
 ARGS=
 CMDS='
-e asm.lines.jmp=false
+e asm.lines.bb=false
 e asm.lines.fcn=false
 e anal.cjmpref=true
 aa
@@ -374,7 +374,7 @@ NAME='cjmp data refs with aar'
 FILE=malloc://10000
 CMDS='
 e asm.arch=8051
-e asm.lines.jmp=false
+e asm.lines.bb=false
 e asm.lines.fcn=false
 wx 307401000022
 aar
@@ -388,7 +388,7 @@ NAME='cjmp data refs with afr'
 FILE=malloc://10000
 CMDS='
 e asm.arch=8051
-e asm.lines.jmp=false
+e asm.lines.bb=false
 e asm.lines.fcn=false
 wx 307401000022
 aa

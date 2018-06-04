@@ -10,7 +10,7 @@ ARGS=
 CMDS='s 0x00400b35
 e asm.leahints=false
 e asm.bytes=false
-e asm.lines.jmp=false
+e asm.lines.bb=false
 e asm.relsub=true
 e asm.comments=false
 pd 1
